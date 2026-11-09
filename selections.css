@@ -1,0 +1,37 @@
+.menu-actions { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 24px; }
+.menu-results-heading { padding-top: 23px; }
+.reservation-logo { width: 34px; height: 34px; object-fit: contain; filter: url('#brand-ink'); mix-blend-mode: normal; }
+.choices-button { display: inline-flex; align-items: center; gap: 10px; padding: 11px 15px; border: 1px solid rgba(0,158,227,.28); border-radius: 12px; background: transparent; color: #b9d5e5; font-size: 13px; }
+.choices-button > svg { width: 19px; height: 19px; color: var(--blue); }
+.choices-button b { display: grid; place-items: center; min-width: 23px; height: 23px; border: 1px solid rgba(0,158,227,.24); border-radius: 7px; color: var(--cyan); font: 11px var(--latin); }
+.choices-button:hover, .choices-button[aria-pressed=true] { border-color: var(--blue); color: var(--cyan); }
+.choices-button[aria-pressed=true] { background: rgba(0,158,227,.08); }
+.product-open { display: flex; flex-direction: column; align-items: stretch; flex: 1; width: 100%; padding: 0; border: 0; background: none; color: inherit; text-align: start; }
+.product-name { display: block; font-size: 17px; font-weight: 500; line-height: 1.5; margin: 0 0 10px; letter-spacing: -.02em; }
+html[lang=en] .product-name { font-size: 16px; letter-spacing: -.035em; }
+.product-plus, .product-card:hover .product-plus { width: 34px; height: 34px; padding: 7px; background: transparent; color: #8bb6cf; border: 1px solid rgba(0,158,227,.28); }
+.product-plus svg { width: 18px; height: 18px; }
+.product-card .product-plus:hover, .product-card .product-plus.is-selected { background: rgba(0,158,227,.1); color: var(--cyan); border-color: var(--blue); }
+.choices-summary { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 17px 20px; margin-bottom: 24px; border: 1px solid #213746; border-radius: 12px; background: #0d1820; }
+.choices-total { display: flex; align-items: center; gap: 20px; font-size: 12px; color: #94b2c4; }
+.choices-total .price { color: #c2e2f3; font-size: 21px; }
+#clear-selections { display: inline-flex; align-items: center; gap: 7px; padding: 6px 0; border: 0; background: transparent; color: #8aabbf; font-size: 11px; }
+#clear-selections svg { width: 14px; height: 14px; }
+#clear-selections:hover { color: var(--cyan); }
+@media (max-width: 760px) {
+  .menu-actions { padding-top: 18px; }
+  .choices-button { padding: 11px; gap: 8px; font-size: 12px; }
+  .choices-button > svg { width: 17px; height: 17px; }
+  .choices-button b { min-width: 21px; height: 21px; font-size: 10px; }
+  .reservation-logo { width: 29px; height: 29px; }
+  .product-name { font-size: 14px; line-height: 1.65; margin-bottom: 8px; }
+  html[lang=en] .product-name { font-size: 12px; line-height: 1.5; }
+  .choices-summary { padding: 14px 15px; margin-bottom: 18px; }
+  .choices-total { gap: 13px; font-size: 11px; }
+  .choices-total .price { font-size: 18px; }
+}
+@media (max-width: 370px) {
+  .choices-button { padding-inline: 9px; gap: 6px; font-size: 11px; }
+  .choices-button > svg { display: none; }
+  .product-name { font-size: 13px; }
+}

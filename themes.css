@@ -1,0 +1,51 @@
+:root {
+  --scene-base: #090e14;
+  --scene-glow: rgba(80, 99, 116, .1);
+  --portal-rest: rgba(255, 255, 255, .018);
+  --portal-over: rgba(255, 255, 255, .045);
+  --portal-border: rgba(206, 220, 232, .13);
+  --portal-icon-bg: rgba(255, 255, 255, .015);
+}
+
+.header-right { gap: 16px; }
+.portal-icon, .instagram-icon { color: var(--blue); }
+.hero-scene {
+  background: radial-gradient(ellipse at 76% 35%, var(--scene-glow), transparent 64%), var(--scene-base);
+}
+.experience-nav > .portal-link {
+  background: var(--portal-rest);
+  border: 1px solid var(--portal-border);
+  border-bottom-width: 0;
+  backdrop-filter: none;
+}
+#open-menu { border-radius: 10px 10px 0 0; }
+.experience-nav > .portal-link:last-child {
+  border-bottom-width: 1px;
+  border-radius: 0 0 10px 10px;
+}
+.experience-nav > .portal-link::before { display: none; }
+.experience-nav > .portal-link:hover,
+.experience-nav > .portal-link:focus-visible {
+  background: var(--portal-over);
+  border-color: var(--portal-border);
+}
+html[dir] .portal-link:hover,
+html[dir] .portal-link:focus-visible { transform: none; }
+body { transition: background-color .25s, color .25s; }
+
+.portal-icon { background: transparent; border-color: rgba(0,158,227,.32); }
+.portal-icon svg { fill: none; stroke: currentColor; }
+
+@media (max-width: 760px) {
+  .header-right { gap: 10px; }
+  .language-switch { gap: 8px; padding-inline: 11px; }
+}
+@media (max-width: 580px) { .brand-caption { display: none; } }
+@media (max-width: 370px) {
+  .header-right { gap: 7px; }
+  .brand img { width: 45px; height: 45px; }
+  .language-switch { padding-inline: 9px; gap: 6px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body { transition-duration: .01ms; }
+}

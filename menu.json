@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "ar": "فيجي ماكي",
+    "en": "Veggie Maki",
+    "category": "maki",
+    "price": 49,
+    "image": "assets/food/01_veggie_maki.webp"
+  },
+  {
+    "id": 2,
+    "ar": "هاوس ليمونيد",
+    "en": "House Lemonade",
+    "category": "drinks",
+    "price": 29,
+    "image": "assets/food/02_house_lemonade.webp"
+  },
+  {
+    "id": 3,
+    "ar": "هاوس مانقو ستروبري",
+    "en": "House Mango Strawberry",
+    "category": "drinks",
+    "price": 29,
+    "image": "assets/food/03_house_mango_strawberry.webp"
+  },
+  {
+    "id": 4,
+    "ar": "جيوزا لحم",
+    "en": "Beef Gyoza",
+    "category": "appetizers",
+    "price": 62,
+    "image": "assets/food/04_beef_gyoza.webp"
+  },
+  {
+    "id": 5,
+    "ar": "إيدامامي حار",
+    "en": "Spicy Edamame",
+    "category": "appetizers",
+    "price": 29,
+    "image": "assets/food/05_spicy_edamame.webp"
+  },
+  {
+    "id": 6,
+    "ar": "سبايسي هاماتشي",
+    "en": "Spicy Hamachi",
+    "category": "maki",
+    "price": 66,
+    "image": "assets/food/06_spicy_hamachi.webp"
+  },
+  {
+    "id": 7,
+    "ar": "بوب كورن شرمب",
+    "en": "Popcorn Shrimp",
+    "category": "appetizers",
+    "price": 68,
+    "image": "assets/food/07_popcorn_shrimp.webp"
+  },
+  {
+    "id": 8,
+    "ar": "تونا نيجيري",
+    "en": "Tuna Nigiri",
+    "category": "nigiri",
+    "price": 39,
+    "image": "assets/food/08_tuna_nigiri.webp"
+  },
+  {
+    "id": 9,
+    "ar": "تشيكن كاتسو كاري",
+    "en": "Chicken Katsu Curry",
+    "category": "main",
+    "price": 62,
+    "image": "assets/food/09_chicken_katsu_curry.webp"
+  },
+  {
+    "id": 10,
+    "ar": "سبايسي تونا",
+    "en": "Spicy Tuna",
+    "category": "maki",
+    "price": 63,
+    "image": "assets/food/10_spicy_tuna.webp"
+  },
+  {
+    "id": 11,
+    "ar": "هارو ماكي",
+    "en": "Haru Maki",
+    "category": "maki",
+    "price": 69,
+    "image": "assets/food/11_haru_maki.webp"
+  },
+  {
+    "id": 12,
+    "ar": "بيف بيبركورن رايس",
+    "en": "Beef Peppercorn Rice",
+    "category": "main",
+    "price": 68,
+    "image": "assets/food/12_beef_peppercorn_rice.webp"
+  },
+  {
+    "id": 13,
+    "ar": "كيجن جريلد سالمون",
+    "en": "Cajun Grilled Salmon",
+    "category": "main",
+    "price": 62,
+    "image": "assets/food/13_cajun_grilled_salmon.webp"
+  },
+  {
+    "id": 14,
+    "ar": "سيباس نيجيري",
+    "en": "Sea Bass Nigiri",
+    "category": "nigiri",
+    "price": 39,
+    "image": "assets/food/14_sea_bass_nigiri.webp"
+  },
+  {
+    "id": 15,
+    "ar": "سلطة هارو",
+    "en": "Haru Salad",
+    "category": "appetizers",
+    "price": 68,
+    "image": "assets/food/15_haru_salad.webp"
+  },
+  {
+    "id": 16,
+    "ar": "داينمايت شرمب",
+    "en": "Dynamite Shrimp",
+    "category": "maki",
+    "price": 64,
+    "image": "assets/food/16_dynamite_shrimp.webp"
+  },
+  {
+    "id": 17,
+    "ar": "سبايسي سالمون",
+    "en": "Spicy Salmon",
+    "category": "maki",
+    "price": 63,
+    "image": "assets/food/17_spicy_salmon.webp"
+  },
+  {
+    "id": 18,
+    "ar": "شوربة ميسو",
+    "en": "Miso Soup",
+    "category": "appetizers",
+    "price": 33,
+    "image": "assets/food/18_miso_soup.webp"
+  },
+  {
+    "id": 19,
+    "ar": "أبوري ساكي",
+    "en": "Aburi Sake",
+    "category": "nigiri",
+    "price": 38,
+    "image": "assets/food/19_aburi_sake.webp"
+  },
+  {
+    "id": 20,
+    "ar": "شرمب كاتسو كاري",
+    "en": "Shrimp Katsu Curry",
+    "category": "main",
+    "price": 67,
+    "image": "assets/food/20_shrimp_katsu_curry.webp"
+  },
+  {
+    "id": 21,
+    "ar": "شرمب أفوكادو",
+    "en": "Shrimp Avocado",
+    "category": "maki",
+    "price": 66,
+    "image": "assets/food/21_shrimp_avocado.webp"
+  },
+  {
+    "id": 22,
+    "ar": "كلير سوب",
+    "en": "Clear Soup",
+    "category": "appetizers",
+    "price": 33,
+    "image": "assets/food/22_clear_soup.webp"
+  },
+  {
+    "id": 23,
+    "ar": "كريسبي رايس سالمون",
+    "en": "Crispy Rice Salmon",
+    "category": "nigiri",
+    "price": 39,
+    "image": "assets/food/23_crispy_rice_salmon.webp"
+  },
+  {
+    "id": 24,
+    "ar": "تونا تارتار",
+    "en": "Tuna Tartare",
+    "category": "appetizers",
+    "price": 63,
+    "image": "assets/food/24_tuna_tartare.webp"
+  },
+  {
+    "id": 25,
+    "ar": "كاليفورنيا",
+    "en": "California",
+    "category": "maki",
+    "price": 49,
+    "image": "assets/food/25_california_roll.webp"
+  },
+  {
+    "id": 26,
+    "ar": "أبوري إيبي",
+    "en": "Aburi Ebi",
+    "category": "nigiri",
+    "price": 42,
+    "image": "assets/food/26_aburi_ebi.webp"
+  },
+  {
+    "id": 27,
+    "ar": "سيفود فرايد رايس",
+    "en": "Seafood Fried Rice",
+    "category": "main",
+    "price": 62,
+    "image": "assets/food/27_seafood_fried_rice.webp"
+  },
+  {
+    "id": 28,
+    "ar": "شرمب كاتسو ساندو",
+    "en": "Shrimp Katsu Sando",
+    "category": "appetizers",
+    "price": 67,
+    "image": "assets/food/28_shrimp_katsu_sando.webp"
+  },
+  {
+    "id": 29,
+    "ar": "كرنشي سالمون",
+    "en": "Crunchy Salmon",
+    "category": "maki",
+    "price": 62,
+    "image": "assets/food/29_crunchy_salmon.webp"
+  },
+  {
+    "id": 30,
+    "ar": "هاماتشي نيجيري",
+    "en": "Hamachi Nigiri",
+    "category": "nigiri",
+    "price": 44,
+    "image": "assets/food/30_hamachi_nigiri.webp"
+  },
+  {
+    "id": 31,
+    "ar": "كاني تاكو",
+    "en": "Kani Taco",
+    "category": "appetizers",
+    "price": 42,
+    "image": "assets/food/31_kani_taco.webp"
+  },
+  {
+    "id": 32,
+    "ar": "شرمب تمبورا",
+    "en": "Shrimp Tempura",
+    "category": "appetizers",
+    "price": 69,
+    "image": "assets/food/32_shrimp_tempura.webp"
+  },
+  {
+    "id": 33,
+    "ar": "سيباس ماكي",
+    "en": "Sea Bass",
+    "category": "maki",
+    "price": 62,
+    "image": "assets/food/33_sea_bass_maki.webp"
+  },
+  {
+    "id": 34,
+    "ar": "سالمون نيجيري",
+    "en": "Salmon Nigiri",
+    "category": "nigiri",
+    "price": 39,
+    "image": "assets/food/34_salmon_nigiri.webp"
+  },
+  {
+    "id": 35,
+    "ar": "إيدامامي مالح",
+    "en": "Salted Edamame",
+    "category": "appetizers",
+    "price": 26,
+    "image": "assets/food/35_salted_edamame.webp"
+  },
+  {
+    "id": 36,
+    "ar": "جيوزا روبيان",
+    "en": "Shrimp Gyoza",
+    "category": "appetizers",
+    "price": 49,
+    "image": "assets/food/36_shrimp_gyoza.webp"
+  },
+  {
+    "id": 37,
+    "ar": "فولكينو",
+    "en": "Volcano",
+    "category": "maki",
+    "price": 66,
+    "image": "assets/food/37_volcano_roll.webp"
+  },
+  {
+    "id": 38,
+    "ar": "هارو شرمب تمبورا",
+    "en": "Haru Shrimp Tempura",
+    "category": "maki",
+    "price": 64,
+    "image": "assets/food/38_haru_shrimp_tempura_roll.webp"
+  },
+  {
+    "id": 39,
+    "ar": "رامن ستايل أودون",
+    "en": "Ramen-Style Udon",
+    "category": "main",
+    "price": 76,
+    "image": "assets/food/39_ramen_style_udon.webp"
+  },
+  {
+    "id": 40,
+    "ar": "سلطة كرنشي سالمون",
+    "en": "Crunchy Salmon Salad",
+    "category": "appetizers",
+    "price": 63,
+    "image": "assets/food/40_crunchy_salmon_salad.webp"
+  },
+  {
+    "id": 41,
+    "ar": "تشيكن ياكي أودون",
+    "en": "Chicken Yaki Udon",
+    "category": "main",
+    "price": 64,
+    "image": "assets/food/41_chicken_yaki_udon.webp"
+  },
+  {
+    "id": 42,
+    "ar": "بيف ياكي أودون",
+    "en": "Beef Yaki Udon",
+    "category": "main",
+    "price": 74,
+    "image": "assets/food/42_beef_yaki_udon.webp"
+  },
+  {
+    "id": 43,
+    "ar": "شرمب ياكي أودون",
+    "en": "Shrimp Yaki Udon",
+    "category": "main",
+    "price": 69,
+    "image": "assets/food/43_shrimp_yaki_udon.webp"
+  },
+  {
+    "id": 44,
+    "ar": "مشروبات غازية",
+    "en": "Soft Drinks",
+    "category": "drinks",
+    "price": 12,
+    "image": null
+  },
+  {
+    "id": 45,
+    "ar": "أساهي",
+    "en": "Asahi Beer",
+    "category": "drinks",
+    "price": 29,
+    "image": null
+  },
+  {
+    "id": 46,
+    "ar": "جينجر إيل",
+    "en": "Ginger Ale",
+    "category": "drinks",
+    "price": 14,
+    "image": null
+  },
+  {
+    "id": 47,
+    "ar": "ماء",
+    "en": "Water",
+    "category": "drinks",
+    "price": 10,
+    "image": null
+  },
+  {
+    "id": 48,
+    "ar": "مياه غازية",
+    "en": "Sparkling Water",
+    "category": "drinks",
+    "price": 15,
+    "image": null
+  }
+]

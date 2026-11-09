@@ -1,0 +1,71 @@
+.menu-results-heading { align-items: center; gap: 20px; }
+.results-summary { display: flex; align-items: baseline; flex-wrap: wrap; gap: 14px; }
+#category-title { font-size: 18px; color: var(--text); }
+#results-count { font-size: 10px; color: #7f99a8; }
+.price-sort-control {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  width: 240px;
+  min-height: 65px;
+  padding: 10px 14px;
+  border: 1px solid rgba(0,158,227,.25);
+  border-radius: 13px;
+  background: linear-gradient(110deg,rgba(0,158,227,.055),transparent 85%),#0d151d;
+  box-shadow: 0 5px 18px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.price-sort-control:hover,
+.price-sort-control.is-active { border-color: rgba(0,158,227,.55); }
+.price-sort-control:focus-within { outline: 2px solid var(--cyan); outline-offset: 4px; }
+.price-sort-icon {
+  width: 37px;
+  height: 37px;
+  display: grid;
+  place-items: center;
+  flex: none;
+  border: 1px solid rgba(0,158,227,.14);
+  border-radius: 11px;
+  background: rgba(0,158,227,.07);
+  color: var(--blue);
+}
+.price-sort-icon svg { width: 21px; height: 21px; }
+.price-sort-copy { display: flex; flex-direction: column; gap: 3px; flex: 1; min-width: 0; padding-inline-end: 20px; }
+.price-sort-label { font-size: 9px; color: #7893a4; line-height: 1.4; }
+.price-sort-copy select {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #d1e8f4;
+  appearance: none;
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.7;
+  cursor: pointer;
+}
+.price-sort-copy select:focus { outline: none; }
+.price-sort-copy select option { background: #0e151c; color: #f3f1e9; }
+.price-sort-chevron { position: absolute; inset-inline-end: 13px; top: 26px; width: 16px; height: 16px; color: var(--cyan); pointer-events: none; }
+html[lang=en] .price-sort-label { font-size: 8px; letter-spacing: .09em; text-transform: uppercase; }
+html[lang=en] .price-sort-copy select { font-size: 12px; }
+@media (max-width: 760px) {
+  .menu-results-heading { padding-top: 21px; margin-bottom: 14px; gap: 12px; }
+  .results-summary { flex-direction: column; align-items: flex-start; gap: 3px; }
+  #category-title { font-size: 15px; }
+  #results-count { font-size: 9px; }
+  .price-sort-control { width: 200px; min-height: 60px; padding: 9px 11px; gap: 10px; border-radius: 12px; }
+  .price-sort-icon { width: 33px; height: 33px; border-radius: 10px; }
+  .price-sort-icon svg { width: 19px; height: 19px; }
+  .price-sort-copy select { font-size: 12px; }
+  .price-sort-chevron { top: 24px; inset-inline-end: 10px; }
+}
+@media (max-width: 370px) {
+  .price-sort-control { width: 177px; gap: 8px; }
+  .price-sort-icon { width: 29px; height: 31px; }
+  .price-sort-copy { padding-inline-end: 14px; }
+  html[lang=en] .price-sort-copy select { font-size: 11px; }
+}
